@@ -1,0 +1,199 @@
+.inner{width:1200px;margin:0 auto}
+#wrap{width:100%;min-width:1200px;position:relative;
+     overflow-x:hidden}
+
+
+section::after{content: ""; display: block; clear: both;}
+
+
+/* ui 디자인 */
+section .slider{padding-top: 0px;}
+.slider .slick-arrow{position: absolute;top:calc(50% - 24px);
+                     width: 48px; height: 48px;
+                    background-color: transparent;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  border: none;text-indent: -99999px;
+                z-index: 9999;}
+.slider .slick-prev{
+              background-image: url(../image/sfix-ico_03.png);
+              left: 50px;}
+.slider .slick-prev:hover{background-image: url(../image/sfix-ico_05.png);}
+.slider .slick-next{
+                background-image: url(../image/sfix-ico_04.png);
+                right: 50px;}
+.slider .slick-next:hover{background-image: url(../image/sfix-ico_06.png);}
+.slider .slick-slide img{width:100%;min-width: 1200px;}
+
+#section1{margin-top:-10px}
+#section1 .inner{position: relative;}
+#section1 img{width: 100%;}
+#section1 .sec1_txt{position: absolute;width: 560px; top:200px; right: 0;transition: top 0.5s;}
+#section1 .sec1_txt p{margin-bottom: 40px;
+                    font-size: 2.3rem;font-weight: bold; color: #BD4F17;line-height: 1.5em;}
+
+#section1 .ddaom{background:url(../image/ddaom.png) no-repeat;
+  padding-top:60px;
+  line-height: 3em;
+  margin-bottom: 20px;transition: line-height 0.5s;}   
+  
+
+@media all and (max-width:1430px) {
+  #section1 .sec1_txt{top:50px; }  
+  #section1 .ddaom{  line-height: 2em;}  
+}
+
+.more{font-size: 1.5rem;color: #BD4F17; text-decoration: underline;font-weight: bold;}
+#section2{margin-bottom: 190px;}
+#section2 img{width: 100%;}
+#section2 .inner{position: relative;}
+#section2 .sec2_txt{position: absolute;width: 510px; top:20px; right: 0;transition: top 0.5s;}
+#section2 .sec2_txt p{margin-bottom: 15px; 
+                    font-size: 3.7rem;font-weight: bold; color: #BD4F17;line-height: 1.5em;}
+#section2 .sec2_txt p span{border-bottom: 5px solid #BD4F17;display: inline-block;}
+#section2 .ddaom{
+  padding-top:0px;
+  line-height: 3em;
+  margin-bottom: 20px;transition: line-height 0.5s;}              
+.more{font-size: 1.5rem;color: #BD4F17; font-weight: bold;}
+
+@media all and (max-width:1500px) {
+  #section2 .sec2_txt{top:10px; }  
+  #section2 .ddaom{  line-height: 1.5em;}  
+}
+
+
+#section3 .inner{position: relative;}
+#section3 h2{/*padding-left: calc(35% + 20px);*/text-align: center; color:#BE4F18;}
+#section3 h3{/*padding-left: calc(35% + 20px);*/text-align: center; color:#BE4F18;font-size: 0.9rem;margin-bottom: 95px;}
+#section3 h2::before{position: absolute; content: ''; display: block;height: 3px; width: 35%; background-color:#BE4F18; left: 0; top:25px}
+#section3 h2::after{position: absolute; content: ''; display: block;height: 3px; width: 35%; background-color:#BE4F18; right: 0; top:25px; }
+
+/*#section3 ul{width: 290px;}
+.sec3_txt{font-size: 1.5rem;color: rgba(48, 48, 48, 0.333);font-weight: bold;}
+.text{color: #5555;}*/
+
+
+
+#section3 .right_box p{height: 50px;
+  
+}
+#section3 .right_box li {width:25%;height:100%;
+   float:left;}
+#section3 .right_box li a{display:block; height: 550px;
+     padding:10px;
+
+}
+#section3 .right_box li:hover a{background-color:rgba(151, 151, 151, 0.333);}
+#section3 .right_box .images_box {
+       width:100%;height:360px;
+       overflow:hidden;
+       background-color:red;
+}
+#section3 .right_box .images_box img{
+  width:100%;
+}
+#section3 .right_box .sec_tit{padding:15px 0; font-size: 1.3rem;color: rgb(73, 73, 73); font-weight: bold;}
+#section3 .right_box .text{font-size: 1rem; line-height:1.5em; margin-bottom: 20px;}
+#section3 .right_box .sale{font-size: 1.8rem;color:#BABF17;font-weight: bold;float: left;}
+#section3 .right_box .fixe{font-size: 1rem;text-decoration: line-through; padding: 10px;float: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+#section4 .inner{position: relative;}
+#section4 h2{/*padding-left: calc(35% + 20px);*/text-align: center; color:#01C9BC;margin-top: 100px;}
+#section4 h3{/*padding-left: calc(35% + 20px);*/text-align: center; color:#01C9BC;font-size: 0.9rem;margin-bottom: 95px;}
+#section4 h2::before{position: absolute; content: ''; display: block;height: 3px; width: 35%; background-color: #01C9BC; left: 0; top:25px}
+#section4 h2::after{position: absolute; content: ''; display: block;height: 3px; width: 35%; background-color:#01C9BC; right: 0; top:25px}
+/* 컨텐츠 디자인 */
+.title_line{display:block;
+         width:30px;height:5px;
+         background-color:#000;
+         margin-bottom:20px;
+         }
+h2{color:#000;font-size:2rem}
+
+
+#header{}
+#nav{}
+#footer{padding-top:50px;line-height:1.5em;clear:both}
+
+
+
+/*********************header****************************/
+.head_top img{
+  filter: invert(29%) sepia(41%) saturate(0%) hue-rotate(220deg) brightness(94%) contrast(83%);
+width: 20px;
+margin: 5px 15px;}
+
+
+.slide {position:relative}
+.slide .images_box img{position:relative;
+           left:calc(50% - 950px);}
+.slide span{position:absolute;top:45%;}
+.slide .arr_l{left:0}
+.slide .arr_r{right:0}
+
+#nav {position: relative;z-index:1;
+        font-size:0.8rem;
+        height:1.5em;
+    }
+#nav .nav_back{
+        position: absolute;
+        width:100%;
+        min-width:1200px;
+        top:0;left:0;
+        background-color:#fff;padding-bottom:20px;
+        height:1.5em;
+        overflow: hidden;
+        transition: height 0.5s;
+        }
+#nav .nav_back:hover{height:200px}
+#nav .nav_back:after{content: '';display: block;clear: both;}        
+#nav .nav_line{border-top:1px solid #aaa;
+     position: absolute;
+     width:100%;height:0;
+     top:2.5em;
+     left:0
+     }
+
+#nav .depth1 > li{float:left;margin-right:10px;}
+#nav .depth1 > li:last-child{margin-right:0}
+#nav .depth1 > li > a {display: block;
+          line-height:3em;
+          font-weight: bold;}
+#nav .depth2 {font-size: 0.7rem;
+           line-height:1.5em;}
+
+
+
+/*********************section****************************/
+.item2 li {width: 20%; height: 240px; box-sizing:border-box;
+ float:left;
+  
+  overflow:hidden
+  } 
+.item2 li img{width:100%; transition: 1s;}
+.item2 li:hover img{transform: scale(1.5);}
+
+/*********************footer****************************/
+#footer .foot_box{padding-top: 40px;
+  line-height: 2em;
+  color: #fff;
+  font-size: 0.7rem;
+   text-align: center;
+   background-color: rgb(5, 5, 5);
+   height: 180px; font-size: 1rem;
+   margin-top: 100px;
+ }
+
